@@ -16,14 +16,7 @@ import { render } from "ink";
 import Ascii from "ink-ascii";
 
 render(
-  <Ascii
-    font="Slant Relief"
-    theme="Monokai Dimmed"
-    horizontalLayout="default"
-    verticalLayout="default"
-    kerning="default"
-    text="Yeah!"
-  />
+  <Ascii font="Slant Relief" horizontalLayout="default" verticalLayout="default" text="Yeah!" />
 );
 ```
 

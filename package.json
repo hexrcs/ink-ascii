@@ -23,10 +23,12 @@
   },
   "homepage": "https://github.com/hexrcs/ink-ascii#readme",
   "dependencies": {
+    "figlet": "^1.2.4",
     "ink": "^2.5.0",
     "react": "^16.11.0"
   },
   "devDependencies": {
+    "@types/figlet": "^1.2.0",
     "@types/ink": "^0.5.2",
     "@types/node": "^12.11.6",
     "@types/react": "^16.9.9",
