@@ -1,10 +1,4 @@
-<p align="center">
-    <img alt="epic" src="https://raw.githubusercontent.com/hexrcs/ink-ascii/dev/screenshot.png" height="200"/>
-</p>
-
-<h1 align="center">
-  ink-ascii
-</h1>
+![ink-ascii](screenshot.png)
 
 > Awesome ASCII art component for [Ink](https://github.com/vadimdemedes/ink)
 
