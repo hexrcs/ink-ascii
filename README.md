@@ -1,4 +1,4 @@
-# ink-ascii
+![ink-ascii](screenshot.png)
 
 > Awesome ASCII art component for [Ink](https://github.com/vadimdemedes/ink)
 
@@ -25,6 +25,14 @@ render(
 ### `<Ascii/>`
 
 Props except for `text` are passed as options to [`figlet`](https://github.com/patorjk/figlet.js).
+
+## TODO
+
+- [x] MVP
+- [ ] Tests
+- [ ] Support color themes
+- [ ] Support user specified width and hard line wraps
+- [ ] Support word wraps
 
 ## Related
 
