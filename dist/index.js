@@ -13,7 +13,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const figlet_1 = __importDefault(require("figlet"));
 const ink_1 = require("ink");
-const Ascii = ({ font = "Slant Relief", theme = "Monokai Dimmed", horizontalLayout = "default", verticalLayout = "default", text = "Ink-Ascii", }) => {
+const Ascii = ({ font = "Slant Relief", theme = "Monokai Dimmed", horizontalLayout = "default", verticalLayout = "default", text = "", }) => {
     const [renderedText, setRenderedText] = react_1.useState("");
     react_1.useEffect(() => {
         figlet_1.default.text(text, {

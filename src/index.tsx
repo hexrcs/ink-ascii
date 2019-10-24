@@ -3,11 +3,11 @@ import figlet from "figlet";
 import { Box } from "ink";
 
 type AsciiProps = {
-  font: figlet.Fonts;
-  theme: string;
-  horizontalLayout: figlet.KerningMethods;
-  verticalLayout: figlet.KerningMethods;
-  text: string;
+  font?: figlet.Fonts;
+  theme?: string;
+  horizontalLayout?: figlet.KerningMethods;
+  verticalLayout?: figlet.KerningMethods;
+  text?: string;
 };
 
 const Ascii = ({
@@ -15,7 +15,7 @@ const Ascii = ({
   theme = "Monokai Dimmed",
   horizontalLayout = "default",
   verticalLayout = "default",
-  text = "Ink-Ascii",
+  text = "",
 }: AsciiProps) => {
   const [renderedText, setRenderedText] = useState<string | undefined>("");
   useEffect(() => {
