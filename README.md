@@ -26,6 +26,14 @@ render(
 
 Props except for `text` are passed as options to [`figlet`](https://github.com/patorjk/figlet.js).
 
+## TODO
+
+- [x] MVP
+- [ ] Tests
+- [ ] Support color themes
+- [ ] Support user specified width and hard line wraps
+- [ ] Support word wraps
+
 ## Related
 
 - [ink-big-text](https://github.com/sindresorhus/ink-big-text) - Big text component for Ink, similar to `ink-ascii`
