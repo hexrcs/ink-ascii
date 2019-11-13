@@ -2,7 +2,7 @@
   "name": "ink-ascii",
   "version": "0.0.1",
   "description": "Awesome ASCII art component for Ink!",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
