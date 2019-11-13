@@ -42,4 +42,5 @@
   "peerDependencies": {
     "ink": ">=2.5.0",
     "react": ">=16.11.0"
-  }}
+  }
+}
