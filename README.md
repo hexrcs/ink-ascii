@@ -29,7 +29,7 @@ Props except for `text` are passed as options to [`figlet`](https://github.com/p
 ## TODO
 
 - [x] MVP
-- [ ] Tests
+- [x] Tests
 - [ ] Support color themes
 - [ ] Support user specified width and hard line wraps
 - [ ] Support word wraps
