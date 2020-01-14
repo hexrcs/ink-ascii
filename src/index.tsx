@@ -17,25 +17,15 @@ const Ascii = ({
   verticalLayout = "default",
   text = "",
 }: AsciiProps) => {
-  const [renderedText, setRenderedText] = useState<string | undefined>("");
-  useEffect(() => {
-    figlet.text(
-      text,
-      {
+  return (
+    <Box>
+      {figlet.textSync(text, {
         font,
         horizontalLayout,
         verticalLayout,
-      },
-      (err, result) => {
-        if (err) {
-          setRenderedText("Unable to render");
-        }
-        setRenderedText(result);
-      }
-    );
-  });
-
-  return <Box>{renderedText}</Box>;
+      })}
+    </Box>
+  );
 };
 
 export default Ascii;
